@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../widgets/add_todo_dialog.dart';
-import '../viewmodels/viewmodel.dart';
+import '../domain/functions/add_todo_dialog.dart';
+import 'todo_viewmodel.dart';
 
 class TodosPage extends StatefulWidget {
   const TodosPage({super.key});

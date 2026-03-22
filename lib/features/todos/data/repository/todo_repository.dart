@@ -1,4 +1,4 @@
-import 'package:todo_refatoracao_baguncado/models/todo.dart';
+import '../../domain/data_model.dart';
 
 abstract class TodoRepository {
   Future<TodoFetchResult> fetchTodos({bool forceRefresh = false});
